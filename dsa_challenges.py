@@ -1,7 +1,7 @@
 # Filter and Sort Even numbers
-def filter_sort_even(num):
+def filter_and_sort_evens(numbers):
     even = []
-    for i in num:
+    for i in numbers:
         if i % 2 == 0:
             even.append(i)
     even.sort()
@@ -9,9 +9,9 @@ def filter_sort_even(num):
 
 
 # Count the character frequency
-def count_char(str):
+def count_character_frequency(text):
     Res = {}
-    lower_text = str.lower()
+    lower_text = text.lower()
     for i in lower_text:
         if i in Res:
             Res[i] += 1
@@ -20,4 +20,4 @@ def count_char(str):
     return Res
 
 
-print(count_char("YOYOYO"))
+print(count_character_frequency("YOYOYO"))
