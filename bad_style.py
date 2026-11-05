@@ -1,7 +1,12 @@
-def my_function(x, y):
-    m = x + y
-    print("The sum is", m)
-    return m
+def calculate_area(length, width):
+    result = length * width
+    if result > 100:
+        print("Large area!")
+    return result
 
 
-my_function(3, 5)
+my_length = 10
+my_width = 5
+area = calculate_area(my_length, my_width)
+print(f"The area is: {area}")
+
