@@ -15,4 +15,5 @@ def fetch_and_display_users(num_users):
         print(f"Error: {e}")
 
 
-fetch_and_display_users(5)
+fetch_and_display_users(4)
+fetch_and_display_users(16)

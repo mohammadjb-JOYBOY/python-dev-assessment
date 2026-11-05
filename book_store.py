@@ -12,8 +12,10 @@ class Book:
         return f"Title: {self.title}, Author: {self.author}, Published: {self.year}"
 
 
-book1 = Book("Attack on Titan", "Isayama", "123456", "2020")
-book2 = Book("One Piece", "Eicheiro Oda", "456789", "2002")
+book1 = Book("Harry Potter and the Philosopher's Stone", "J. K. Rowling", "978-0-7475-3269-9", "1997")
+book2 = Book("The Alchemist", "Paulo Coelho", "0-06-250217-4", "1988")
+book3 = Book("A Man Called Ove", "Fredrik Backman", "9781476738024", "2012")
 
-print("Book age:", book1.get_age())
+print("Book age of Harry Potter:", book1.get_age())
 print(book2.get_summary())
+print("Release year of A Man Called Ove: ",book3.year)

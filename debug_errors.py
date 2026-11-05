@@ -9,13 +9,13 @@ def calculate_average(numbers):
         return None
 
 
-data1 = [20, 50, 20]
-data2 = [20, 15, 20, 25]
+data1 = [10, 20, 30, 40, 50]
+data2 = [5, 15]
 data3 = []
 
-print("Average 1:", calculate_average(data1))
-print("Average 2:", calculate_average(data2))
-print("Average 3:", calculate_average(data3))
+print(f"Average of data1:", calculate_average(data1))
+print(f"Average of data2:", calculate_average(data2))
+print(f"Average of data3:", calculate_average(data3))
 
 
 def get_list_element(my_list, index):
