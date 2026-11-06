@@ -1,6 +1,6 @@
 # Filter and Sort Even numbers
 def filter_and_sort_evens(numbers):
-    even = [3, 1, 4, 7, 1, 5, 9, 2, 6, 8]
+    even = []
     for i in numbers:
         if i % 2 == 0:
             even.append(i)
